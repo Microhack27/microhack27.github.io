@@ -1048,7 +1048,17 @@ body::before {
     stroke: currentColor;
     stroke-width: 1.5;
 }
+/* Fix Website and Instagram Icons */
+.college-socials a:nth-child(3) svg,
+.college-socials a:nth-child(4) svg {
+    fill: none;
+    stroke: currentColor;
+}
 
+.college-socials a:nth-child(4) svg circle:last-child {
+    fill: currentColor;
+    stroke: none;
+}
 .footer-bottom {
     max-width: 1150px;
     margin: 50px auto 0;
